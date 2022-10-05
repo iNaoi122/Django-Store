@@ -2,5 +2,40 @@
 
 {% load static %}
 {% block content %}
-<h3>Store</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <img class="image-product" src="{% static 'images/stars.png' %}" />
+            <div class="box product">
+                <h6><strong>Product</strong></h6>
+                <hr />
+                <btn class="btn btn-outline-secondary">Add to cart</btn>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h5 style="display:inline-block;float:right" >$20</h5>
+            </div>
+        </div>
+        <div class="col-sm">
+            <img class="image-product" src="{% static 'images/stars.png' %}" />
+            <div class="box product">
+                <h6><strong>Product</strong></h6>
+                <hr />
+                <btn class="btn btn-outline-secondary">Add to cart</btn>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h5 style="display:inline-block;float:right">$20</h5>
+            </div>
+        </div>
+        <div class="col-sm">
+            <img class="image-product" src="{% static 'images/stars.png' %}" />
+            <div class="box product">
+                <h6><strong>Product</strong></h6>
+                <hr />
+                <btn class="btn btn-outline-secondary">Add to cart</btn>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h5 style="display:inline-block;float:right">$20</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock content %}

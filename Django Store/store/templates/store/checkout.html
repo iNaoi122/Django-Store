@@ -1,1 +1,23 @@
-<h3>Checkout</h3>
+{% extends 'store/main.html' %}
+
+{% load static %}
+{% block content %}
+
+<div class="row">
+    <div class="col-lg">
+        <div class="box-element">
+            <form>
+                <div id="user-info">
+                    User info
+                </div>
+                <div id="shop-info">
+                    Shop info
+                </div>
+                <input class="btn btn-success" value="Continue" type="submit"/>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+{% endblock content %}

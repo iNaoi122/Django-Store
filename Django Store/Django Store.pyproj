@@ -50,8 +50,8 @@
   <ItemGroup>
     <Folder Include="Django_Store\" />
     <Folder Include="static\" />
-    <Folder Include="static\css\" />
     <Folder Include="static\images\" />
+    <Folder Include="static\css\" />
     <Folder Include="store\" />
     <Folder Include="store\migrations\" />
     <Folder Include="store\templates\" />
@@ -61,6 +61,8 @@
     <Content Include="db.sqlite3" />
     <Content Include="requirements.txt" />
     <Content Include="static\css\main.css" />
+    <Content Include="static\images\cart.png" />
+    <Content Include="static\images\stars.png" />
     <Content Include="store\templates\store\store.html" />
     <Content Include="store\templates\store\cart.html" />
     <Content Include="store\templates\store\checkout.html" />

@@ -1,0 +1,16 @@
+#cart-icon{
+    width: 30px;
+    display: inline-block;
+}
+
+#cart-total {
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 25px;
+    color: red;
+}
+.image-product{
+    width:100%;
+    
+}
