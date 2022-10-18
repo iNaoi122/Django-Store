@@ -62,7 +62,9 @@
     <Content Include="requirements.txt" />
     <Content Include="static\css\main.css" />
     <Content Include="static\images\cart.png" />
+    <Content Include="static\images\rice.jpg" />
     <Content Include="static\images\stars.png" />
+    <Content Include="static\images\tea.jpg" />
     <Content Include="store\templates\store\store.html" />
     <Content Include="store\templates\store\cart.html" />
     <Content Include="store\templates\store\checkout.html" />
